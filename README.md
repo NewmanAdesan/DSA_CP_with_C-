@@ -4,6 +4,7 @@ My Journey to becoming highly Creative, Analytic and Conceptual with problem sol
 Hints to increasing growth in Problem solving:
 
 1) How Many Techniques do You know:
+
             when you solve a problem or you see someone else solve a problem
             ask yourself and dont just ask, strictly analyse yourself 
              " What Primary Technique makes this code Tick"
