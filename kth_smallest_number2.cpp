@@ -69,7 +69,7 @@ int kthSmallest(int arr[], int l, int n, int k)
             if (arr[a] < min){
                 min = arr[a] ;
                 min_index = a ;
-            }else if (arr[a] == min && l>0){            // this chech incase there are multiple values
+            }else if (arr[a] == min && l>0){            // this checks incase there are multiple values
                 arr[a] = max ;
             }
 
