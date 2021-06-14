@@ -1,5 +1,3 @@
-// { Driver Code Starts
-//Initial Template for C
 
 /***********************************************************************************************
  *   Problem :  Kth Smallest Number                                                            *
@@ -77,8 +75,8 @@ int kthSmallest(int arr[], int l, int n, int k)
 
             if (a==(n-1)){                              // found a min value now it update answer
                 answer = min;
-                arr[min_index] = max;
-                min = arr[min_index] ;
+                arr[min_index] = max;                   //update that min value in the array
+                min = arr[min_index] ;                  //update the min checker value
             }
 
             l = l + 1 ;
