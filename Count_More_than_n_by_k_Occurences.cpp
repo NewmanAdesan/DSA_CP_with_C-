@@ -2,7 +2,7 @@
 /***************************************************************************************************
  *   Problem :  Count More than n/k Occurences                                                     *                   
  *                                                                                                 *
- *   Problem Solving Technique : Using Array indexing for Refrencing                               *                                                          
+ *   Problem Solving Technique : Using Array indexing for Refrencing(12 lines)                     *                                                          
  *                                                                                                 *
  *   Info : Given an array arr[] of size N and an element k.                                       *
  *          The task is to find all elements in array                                              *
@@ -105,9 +105,9 @@ class Solution
 
 // { Driver Code Starts.
 int main() {
-    int t, k;
-    cin >> t;
-    while (t--) {
+    int test, k;
+    cin >> test;
+    while (test--) {
         int n, i;
         cin >> n;
 
