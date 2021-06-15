@@ -1,5 +1,3 @@
-// { Driver Code Starts
-//Initial Template for C
 
 /***************************************************************************************************
  *   Problem :  Count More than n/k Occurences                                                     *                   
@@ -7,17 +5,17 @@
  *   Problem Solving Technique : Using Array indexing for Refrencing                               *                                                          
  *                                                                                                 *
  *   Info : Given an array arr[] of size N and an element k.                                       *
- *          The task is to find all elements in array 
- *          that appear more than n/k times.
- * 
- *   Example :  Input:
- *              N = 8
- *              arr[] = {3,1,2,2,1,2,3,3}
- *              K = 4
- *              Output : 2
- *              Explanation :
- *                            In the given array, 3 and 2
- *                            are the only elements that appears 
+ *          The task is to find all elements in array                                              *
+ *          that appear more than n/k times.                                                       *
+ *                                                                                                 *
+ *   Example :  Input:                                                                             *
+ *              N = 8                                                                              *
+ *              arr[] = {3,1,2,2,1,2,3,3}                                                          *
+ *              K = 4                                                                              *
+ *              Output : 2                                                                         *
+ *              Explanation :                                                                      *
+ *                            In the given array, 3 and 2                                          *
+ *                            are the only elements that appears                                   * 
  *                            more than n/k times.
  *
  *
