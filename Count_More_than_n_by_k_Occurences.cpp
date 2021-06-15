@@ -16,52 +16,52 @@
  *              Explanation :                                                                      *
  *                            In the given array, 3 and 2                                          *
  *                            are the only elements that appears                                   * 
- *                            more than n/k times.
- *
- *
- *   Time Complexity : O(n)
- *   Space Complexity : O(n)
- * 
- *   
- * -------------------------------------------------------------------------------------------
- * ***********************************   MY PLAN   *******************************************
- * it actually simple. 
- * I know, I know the name is not as brilliant as i would have hoped it to be.
- * okay what of REFRENCING WITH ARRAY INDEXING "how about that?" i think thats beter
- * anyways lets get to the plan
- * basically its about utiliizing HOW the array data structure tranverses.
- * whereby arrays have index numbers like ID that we can use to access values assigned to them.
- *
- *
- * Let See What Happened :      (Now follow me, follow me closely)
- * we make a separate array whereby every unique element in our input array
- * is an index in that separate array. Now of course you know arrays 
- * assign index automatically from 0 to a given number
- *
- *
- * Thus all we have to do (You think) is this ---  int frequency[ (max of input array) + 1] = {0}
- * Think about it and you'll see it sure enough works.   
- * Of course we have to make it all zeros, i mean a zero array
- * because what we are going to be storing in there are count values
- * of unique element in our input index
- *
- *
- * So we loop Through our input array and constantly and simultaneously
- * count each unique element and update the count value in
- * our refrence array using the unique element as index in that array for updating 
- * unique elements count value
- *
- *
- * For Example: input array = {1,4,2,4,4}
- *              refrence array =  |0|1|2|3|4|   ----- index(unique element as key)
- *                                 0 1 1 0 3    ----- count values
- *
- *
- * Then lastly all we have to do is loop to refrence array 
- * and look for indexes whose count values are more than n/k.
- *
- *                            This is My Game Plan :)
- ***********************************************************************************************/
+ *                            more than n/k times.                                                 *
+ *                                                                                                 *
+ *                                                                                                 *
+ *   Time Complexity : O(n)                                                                        *
+ *   Space Complexity : O(n)                                                                       *
+ *                                                                                                 *
+ *                                                                                                 *
+ * -------------------------------------------------------------------------------------------------
+ * ***********************************   MY PLAN   *************************************************
+ * it actually simple.                                                                             * 
+ * I know, I know the name is not as brilliant as i would have hoped it to be.                     *
+ * okay what of REFRENCING WITH ARRAY INDEXING "how about that?" i think thats beter               *
+ * anyways lets get to the plan                                                                    *
+ * basically its about utiliizing HOW the array data structure tranverses.                         *
+ * whereby arrays have index numbers like ID that we can use to access values assigned to them.    *
+ *                                                                                                 *
+ *                                                                                                 *
+ * Let See What Happened :      (Now follow me, follow me closely)                                 *
+ * we make a separate array whereby every unique element in our input array                        *
+ * is an index in that separate array. Now of course you know arrays                               *
+ * assign index automatically from 0 to a given number                                             *
+ *                                                                                                 *
+ *                                                                                                 *
+ * Thus all we have to do (You think) is this ---  int frequency[ (max of input array) + 1] = {0}  *
+ * Think about it and you'll see it sure enough works.                                             *
+ * Of course we have to make it all zeros, i mean a zero array                                     *
+ * because what we are going to be storing in there are count values                               *
+ * of unique element in our input index                                                            *
+ *                                                                                                 *
+ *                                                                                                 *
+ * So we loop Through our input array and constantly and simultaneously                            *
+ * count each unique element and update the count value in                                         *
+ * our refrence array using the unique element as index in that array for updating                 *
+ * unique elements count value                                                                     *
+ *                                                                                                 *
+ *                                                                                                 *
+ * For Example: input array = {1,4,2,4,4}                                                          *
+ *              refrence array =  |0|1|2|3|4|   ----- index(unique element as key)                 *
+ *                                 0 1 1 0 3    ----- count values                                 *
+ *                                                                                                 *
+ *                                                                                                 *
+ * Then lastly all we have to do is loop to refrence array                                         * 
+ * and look for indexes whose count values are more than n/k.                                      *
+ *                                                                                                 *
+ *                            This is My Game Plan :)                                              *
+ ***************************************************************************************************/
 
 #include <iostream>
 #include <bits/stdc++.h>
