@@ -10,17 +10,15 @@ int main(){
     string a = "100" ;
     string b = "23" ;
 
-  
-
     // First Step 
     // make a the smaller operand
     // remember how we multiply right
     // smaller opereand id below and bigger operand is above
+    // we chose a = smallest and b = biggest
     if (a.length() > b.length()){
         string temp = a;
         a = b ;
-        b = temp;
-    }
+        b = temp;}
 
 
     // Second Step 
@@ -29,6 +27,7 @@ int main(){
     // of course you also know it has to have length of
     // like twice the operands length right? "Flow with me here"
     // it has to be bigger
+    //
     int arr[2*3 + 2]  = {0};
     int N = 2*3 + 2;
 
