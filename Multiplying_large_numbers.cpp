@@ -13,9 +13,9 @@ int main(){
   
     /************************************************************
     * First Step                                                *
-    * make a the smaller operand                                *
+    * make string a the smaller operand                         *
     * remember how we multiply right                            *
-    * smaller opereand id below and bigger operand is above     *
+    * smaller opereand is below and bigger operand is above     *
     *************************************************************/
     if (a.length() > b.length()){
         string temp = a;
@@ -29,8 +29,8 @@ int main(){
     * let declare our integer array                             *
     * where we store and update our multiplication result       *
     * of course you also know it has to have length of          *
-    * like twice the operands length right? "Flow with me here" *
-    * it has to be bigger                                       *
+    * like twice the bigger operands length right?              *
+    * "Flow with me here"                                       *
     ************************************************************/
     int N = 2*b.length() + 2;
     int arr[N]  = {0};
@@ -67,9 +67,10 @@ int main(){
     * last step                                                *
     * Now our array is filled with the right values            *
     * we convert our arr of integers to a string               *
-    * we need a flag variable so as we loop through            *
+    * we need a flag variable so as we loop through so         *
     * we would know when we should start adding numbers        *
     * to our string result                                     *
+    *                                                          *
     ***********************************************************/ 
     string result = "" ;
     int flag = 0 ;
