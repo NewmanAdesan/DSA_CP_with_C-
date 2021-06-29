@@ -26,7 +26,7 @@ No water will be trapped.
 */
 
 
-// { Driver Code Starts
+
 #include<bits/stdc++.h>
 
 using namespace std;
