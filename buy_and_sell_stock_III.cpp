@@ -22,6 +22,7 @@ Input: prices = [7,6,4,3,1]
 Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0
 
+
 */
 
 
@@ -56,9 +57,11 @@ public:
         }
         
         
+        // this is the key part of the logic
         for(int i = 0; i<n-1; i++){
             result = max(result, left_max[i] + right_max[i+1]);
         }
+        
         
         // for edge case like {1,2,3,4,5}
         result = max(result, left_max[n-1]);
