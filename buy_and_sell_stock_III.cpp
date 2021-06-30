@@ -29,6 +29,10 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
+        // using Technique of refrance array and a bit
+        // of dynamic programming
+        // Note: the logic is not that trivial
+        // pay attention!
         int n = prices.size();
         int result = 0;
         
