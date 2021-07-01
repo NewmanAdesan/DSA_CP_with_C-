@@ -29,10 +29,29 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
+        
         // using Technique of refrance array and a bit
         // of dynamic programming
         // Note: the logic is not that trivial
         // pay attention!
+        // we create two refrence array
+        // getting highest profit from the left
+        // in the created left_max array
+        // and getting highest profit from the right
+        // e.g for [3,3,5,0,0,3,1,4]
+        // left_max is [0,0,2,2,2,3,3,3]
+        // right_max is [2,2,3,3,3,3,3,3]
+        // then the idea after is
+        // remember we have to make a profit before 
+        // we start the next trade for profit
+        
+        // so its more like
+        // [0,0,2,2,2,3,3,3]
+        //   \ \ \ \ \ \ \ 
+        // [2,2,3,3,3,3,3,3]
+        // this are the choices we can make
+        // but we need the maximum profit possible
+        
         int n = prices.size();
         int result = 0;
         
