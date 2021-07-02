@@ -14,3 +14,6 @@ Hints to increasing growth in Problem solving:
              this means to grow and learn, pay attention to 
              when others talk or solve a problem.
                     FIND THE TECHNIQUE
+                    MORE iMPORTANTLY
+                    FIND HOW TO RECOGNISE THE TECHNIQUE
+                    
