@@ -4,6 +4,9 @@
     rotate it by D elements in the counter-clockwise direction.
 
     Technique : Simple Pattern Recognition
+    
+    Time complexity:
+    
 
     do you see how shifting can be achieve with reverse....Look at it
 
