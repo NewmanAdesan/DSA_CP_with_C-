@@ -5,7 +5,8 @@
 
     Technique : Simple Pattern Recognition
     
-    Time complexity:
+    Time complexity: O(n)
+    Space complexity: 
     
 
     do you see how shifting can be achieve with reverse....Look at it
