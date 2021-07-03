@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 
-
 //User function Template for C
+// meaning it was written for a
+// C compiler but no worries
 // The main code is the the function
 // it will also work in C++
 // all you need to do is 
-// #include <bitstd.c++>
+// #include<bits/stdc++.h>
+// using namespace std;
 
 
 //Function to rotate matrix anticlockwise by 90 degrees.
