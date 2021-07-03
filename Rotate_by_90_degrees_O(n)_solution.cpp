@@ -1,8 +1,12 @@
 #include <stdio.h>
 
 
- // } Driver Code Ends
+
 //User function Template for C
+// The main code is the the function
+// it will also work in C++
+// all you need to do is 
+// #include <bitstd.c++>
 
 
 //Function to rotate matrix anticlockwise by 90 degrees.
