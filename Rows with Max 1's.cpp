@@ -21,10 +21,6 @@ indexing)
 
 */
 
-
-
-
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -73,8 +69,9 @@ public:
 	    
 	    return ind;
 	}
-
 };
+
+
 
 // { Driver Code Starts.
 int main() {
