@@ -1,4 +1,4 @@
-// { Driver Code Starts
+
 // C++ program to find minimum swaps required
 // to club all elements less than or equals
 // to k together
@@ -28,14 +28,16 @@ int main() {
 
 
 int minSwap(int *arr, int n, int k) {
-    // Complet the function
-    // using sliding window technique
-    // window size would be the how many
-    // numbers are less than equal to k
-    // 
-    // then we move from one window to
-    // another and look for  the minimum number 
-    // of count of outliers in a window
+    /********************************************
+    *Complet the function			*
+    * using sliding window technique		*
+    * window size would be the how many		*
+    * numbers are less than equal to k		*
+    * 						*
+    * then we move from one window to		*
+    * another and look for  the minimum number 	*
+    * of count of outliers in a window		*
+    ********************************************/
     
     
     // lets find the window size
@@ -50,9 +52,11 @@ int minSwap(int *arr, int n, int k) {
         return 0;
     }
     
+	
     //note the idea is to do it in O(n)
     // thus no nested loop
     
+	
     // lets check the first window
     int count = 0;
     for(int i = 0; i<wsize; i++){
@@ -62,6 +66,7 @@ int minSwap(int *arr, int n, int k) {
     }
     
     
+	
     // very key to note no nested loop 
     // is allowed and since this is sliding window
     // if we did nested loop, we will just be
