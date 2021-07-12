@@ -25,12 +25,11 @@ starting index.
 
 
 
-// { Driver Code Starts
+
 #include<bits/stdc++.h>
 using namespace std;
 
 
- // } Driver Code Ends
 class Solution {
   public:
     string longestPalin (string S) {
@@ -175,6 +174,7 @@ class Solution {
         
     }
 };
+
 
 // { Driver Code Starts.
 
