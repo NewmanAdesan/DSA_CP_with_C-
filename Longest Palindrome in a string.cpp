@@ -35,23 +35,23 @@ class Solution {
     string longestPalin (string S) {
       
         /**********************************************************************************
-        // code here
-        // okay this is not so trivial 
-        // but you will get it easily and swiftly as
-        // i walk you through it
-        // Lets Understand the Story of this problem
-        
-        // Now i believe you've read and digested the question right
-        // at least you should have thought of how the brute force solution
-        // will be right.... in Steps
-        // scroll through all the substrings available -- step 1 
-        // and check it they are equal to their reverse -- step 2
-        
-        // step one involve two pointer going in nested loop -- O(n^2)
-        // step two will also be approcimately O(n)
-        // i believe implementating this brute force would be a piece of cake
-        // an extra knowledge to make code shorter 
-        // is the use of the string method -- substr(start_index, end_index)
+        // code here                                                                      *
+        // okay this is not so trivial                                                    *
+        // but you will get it easily and swiftly as                                      *
+        // i walk you through it                                                          *
+        // Lets Understand the Story of this problem                                      *
+                                                                                          *
+        // Now i believe you've read and digested the question right                      *
+        // at least you should have thought of how the brute force solution               *
+        // will be right.... in Steps                                                     *
+        // scroll through all the substrings available -- step 1                          *
+        // and check it they are equal to their reverse -- step 2                         *
+                                                                                          *
+        // step one involve two pointer going in nested loop -- O(n^2)                    *
+        // step two will also be approcimately O(n)                                       *
+        // i believe implementating this brute force would be a piece of cake             *
+        // an extra knowledge to make code shorter                                        *
+        // is the use of the string method -- substr(start_index, end_index)              *
         
         // Now lets get to the real reason am here.....to show you a better approach
         // now take a look at two keywords in this question
