@@ -142,11 +142,11 @@ class Solution {
         
         
         /************for debugging****************
-        for (int i = 0; i< s2.length(); i++){
-            cout << mid_guys[i] << " ";
-        }
-        cout<< endl;
-        cout << max_index;
+        *for (int i = 0; i< s2.length(); i++){   *
+        *    cout << mid_guys[i] << " ";         *
+        *}                                       *
+        *cout<< endl;                            *
+        *cout << max_index;                      *
         ******************************************/
         
         
