@@ -33,6 +33,8 @@ using namespace std;
 class Solution {
   public:
     string longestPalin (string S) {
+      
+        /**********************************************************************************
         // code here
         // okay this is not so trivial 
         // but you will get it easily and swiftly as
@@ -95,6 +97,7 @@ class Solution {
         // thus we can check for both even and odd
         
         // Wow that was a long Story....lets Implement
+        **********************************************************************************/
         
         
         
